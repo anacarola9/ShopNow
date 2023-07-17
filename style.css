@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #101010;
+    background-color: #a8a8a8;
 }
  .btn { 
     padding: 1.1em 2em;
@@ -15,7 +15,7 @@ body{
     overflow: hidden; 
     transition: all 0.3s;
     border-radius: 12px;
-    background-color: #ecd448;
+    background-color: #bf1564;
     font-weight: bolder;
     box-shadow: 0 2px 0 2px #000;
  }
@@ -25,7 +25,7 @@ body{
     position: absolute;
     width: 100px;
     height: 120px;
-    background-color: #ff6700;
+    background-color: #817f7e;
     top: 50%;
     transform: skew(30deg) translate(-150%, -50%);
     transition: all 0.5s;
@@ -33,9 +33,9 @@ body{
  }
  
  .btn:hover {
-    background-color: #4cc9f0;
+    background-color: #e54cf0;
     color: #fff;
-    box-shadow: 0 2px 0 2px #0d3b66;
+    box-shadow: 0 2px 0 2px #660d59;
  }
  .btn active {
     transform: scale(0.9);
